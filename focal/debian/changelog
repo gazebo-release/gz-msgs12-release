@@ -1,30 +1,6 @@
-gz-msgs9 (9.2.0-1~focal) focal; urgency=medium
-
-  * gz-msgs9 9.2.0-1 release
-
- -- Carlos Aguero <caguero@openrobotics.org>  Wed, 23 Nov 2022 21:16:09 +0100
-
-gz-msgs9 (9.1.0-1~focal) focal; urgency=medium
-
-  * gz-msgs9 9.1.0-1 release
-
- -- Nate Koenig <nate@openrobotics.org>  Thu, 17 Nov 2022 15:32:44 -0800
-
-gz-msgs9 (9.0.0-1~focal) focal; urgency=medium
-
-  * gz-msgs9 9.0.0-1 release
-
- -- Nate Koenig <nate@openrobotics.org>  Mon, 26 Sep 2022 09:29:17 -0700
-
-gz-msgs9 (9.0.0~pre1-1~focal) focal; urgency=medium
-
-  * gz-msgs9 9.0.0~pre1-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Tue, 30 Aug 2022 16:09:46 -0700
-
-gz-msgs9 (8.999.999-1~focal) focal; urgency=medium
+gz-msgs10 (9.999.999-1~focal) focal; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Louise Poubel <louise@openrobotics.org>  Thu, 07 Oct 2021 15:29:19 -0700
+ -- Carlos Aguero <caguero@openrobotics.org>  Tue, 24 Jan 2023 22:00:39 +0100
 
