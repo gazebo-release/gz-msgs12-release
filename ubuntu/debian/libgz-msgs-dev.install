@@ -2,5 +2,6 @@ usr/bin/*
 usr/include/*
 usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
+usr/lib/cmake/*-msgs*/*
 usr/lib/*/cmake/*-msgs*/*
 usr/share/gz/*-msgs*/*-msgs[0-9]*.tag.xml
