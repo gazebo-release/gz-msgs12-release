@@ -2,3 +2,4 @@ usr/lib/*/*.so.*
 usr/lib/ruby/gz/*.rb
 usr/share/gz/*.yaml
 usr/share/gz/*.completion*/*
+usr/share/protos/*
