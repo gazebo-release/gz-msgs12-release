@@ -1,6 +1,5 @@
-gz-msgs10 (9.999.999-1~jammy) jammy; urgency=medium
+gz-msgs10 (10.0.0~pre1-1~jammy) jammy; urgency=medium
 
-  * Stub to be removed after first entry
+  * gz-msgs10 10.0.0~pre1-1 release
 
- -- Carlos Aguero <caguero@openrobotics.org>  Tue, 24 Jan 2023 22:00:39 +0100
-
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Tue, 29 Aug 2023 17:44:05 -0500
