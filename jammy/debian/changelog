@@ -1,3 +1,9 @@
+gz-msgs10 (10.0.0~pre3-1~jammy) jammy; urgency=medium
+
+  * gz-msgs10 10.0.0~pre3-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 30 Aug 2023 22:04:13 -0500
+
 gz-msgs10 (10.0.0~pre2-1~jammy) jammy; urgency=medium
 
   * gz-msgs10 10.0.0~pre2-1 release
