@@ -28,8 +28,6 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: libignition-msgs10 (<< 9.999.999+nightly+git20220630+1r7cf04fc6594634b3262a54c164fcb357756821e2-1)
-Replaces: libignition-msgs10 (<< 9.999.999+nightly+git20220630+1r7cf04fc6594634b3262a54c164fcb357756821e2-1)
 Multi-Arch: same
 Description: Set of message definitions used by robotics apps - Shared library
  Gazebo msgs is a component in the Gazebo framework, a set of
@@ -49,8 +47,6 @@ Depends: libprotobuf-dev (>= 2.3.0),
          libgz-math7-dev,
          libgz-msgs10 (= ${binary:Version}),
          ${misc:Depends}
-Breaks: libignition-msgs10-dev (<< 9.999.999+nightly+git20220630+1r7cf04fc6594634b3262a54c164fcb357756821e2-1)
-Replaces: libignition-msgs10-dev (<< 9.999.999+nightly+git20220630+1r7cf04fc6594634b3262a54c164fcb357756821e2-1)
 Multi-Arch: same
 Description: Set of message definitions used by robotics apps - Dev files
  Gazebo msgs is a component in the Gazebo framework, a set of
@@ -75,19 +71,3 @@ Description: Set of message definitions used by robotics apps - Dev files
  This package contains the headers and other tools for development.
  .
  The package contains the Python3 bindings.
-
-Package: libignition-msgs10
-Depends: libgz-msgs10, ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: oldlibs
-Description: transitional package
- This is a transitional package. It can safely be removed.
-
-Package: libignition-msgs10-dev
-Depends: libgz-msgs10-dev, ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: oldlibs
-Description: transitional package
- This is a transitional package. It can safely be removed.
