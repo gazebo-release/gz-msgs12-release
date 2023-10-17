@@ -1,29 +1,5 @@
-gz-msgs10 (10.0.0-1~jammy) jammy; urgency=medium
+gz-msgs11 (10.999.999-1~jammy) jammy; urgency=medium
 
-  * gz-msgs10 10.0.0-1 release
+  * Stub to be removed after first entry
 
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 29 Sep 2023 13:55:28 -0500
-
-gz-msgs10 (10.0.0~pre4-1~jammy) jammy; urgency=medium
-
-  * gz-msgs10 10.0.0~pre4-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Thu, 28 Sep 2023 10:30:06 -0500
-
-gz-msgs10 (10.0.0~pre3-1~jammy) jammy; urgency=medium
-
-  * gz-msgs10 10.0.0~pre3-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 30 Aug 2023 22:04:13 -0500
-
-gz-msgs10 (10.0.0~pre2-1~jammy) jammy; urgency=medium
-
-  * gz-msgs10 10.0.0~pre2-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 30 Aug 2023 11:30:27 -0500
-
-gz-msgs10 (10.0.0~pre1-1~jammy) jammy; urgency=medium
-
-  * gz-msgs10 10.0.0~pre1-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Tue, 29 Aug 2023 17:44:05 -0500
+ -- Ian Chen <ichen@openrobotics.org>  Fri, 13 Oct 2023 20:53:45 +0000
