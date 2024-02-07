@@ -48,9 +48,11 @@ Depends: libprotobuf-dev (>= 2.3.0),
          libgz-cmake4-dev,
          libgz-math8-dev,
          libgz-utils3-cli-dev,
+         python3,
+         ${shlibs:Depends},
          libgz-msgs11 (= ${binary:Version}),
          ${misc:Depends}
-Multi-Arch: same
+Multi-Arch: no
 Description: Set of message definitions used by robotics apps - Dev files
  Gazebo msgs is a component in the Gazebo framework, a set of
  librariesdesigned to rapidly develop robot applications. The library
