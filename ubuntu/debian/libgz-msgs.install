@@ -1,3 +1,2 @@
 usr/lib/*/*.so.*
-usr/share/gz/*.completion*/*
 usr/share/gz/protos/*
