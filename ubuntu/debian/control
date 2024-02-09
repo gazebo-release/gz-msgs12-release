@@ -13,6 +13,7 @@ Build-Depends: cmake,
                libgz-cmake4-dev,
                libgz-math8-dev,
                libgz-tools2-dev,
+               libgz-utils3-cli-dev,
                protobuf-compiler,
                python3,
                python3-dev,
@@ -28,6 +29,7 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: gz-msgs11-cli
 Multi-Arch: same
 Description: Set of message definitions used by robotics apps - Shared library
  Gazebo msgs is a component in the Gazebo framework, a set of
@@ -45,15 +47,31 @@ Depends: libprotobuf-dev (>= 2.3.0),
          libtinyxml2-dev,
          libgz-cmake4-dev,
          libgz-math8-dev,
+         libgz-utils3-cli-dev,
+         python3,
+         ${shlibs:Depends},
          libgz-msgs11 (= ${binary:Version}),
          ${misc:Depends}
-Multi-Arch: same
+Multi-Arch: no
 Description: Set of message definitions used by robotics apps - Dev files
  Gazebo msgs is a component in the Gazebo framework, a set of
  librariesdesigned to rapidly develop robot applications. The library
  defines common protobuf messages used by the robotics community.
  .
  This package contains the headers and other tools for development.
+
+Package: gz-msgs11-cli
+Architecture: any
+Depends: libgz-msgs11 (= ${binary:Version}),
+         ${shlibs:Depends},
+         ${misc:Depends}
+Multi-Arch: no
+Description: Set of message definitions used by robotics apps - CLI
+ Gazebo msgs is a component in the Gazebo framework, a set of
+ librariesdesigned to rapidly develop robot applications. The library
+ defines common protobuf messages used by the robotics community.
+ .
+ This package contains the cli utilities.
 
 Package: python3-gz-msgs11
 Architecture: any

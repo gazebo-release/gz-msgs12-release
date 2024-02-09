@@ -3,7 +3,7 @@
 .PHONY: override_dh_auto_configure override_dh_auto_test
 
 %:
-	dh $@ --parallel --with python3
+	dh $@ --with python3
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
