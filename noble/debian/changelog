@@ -1,11 +1,11 @@
+gz-msgs11 (11.0.0-1~noble) noble; urgency=medium
+
+  * gz-msgs11 11.0.0-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Thu, 26 Sep 2024 13:30:20 -0500
+
 gz-msgs11 (11.0.0~pre1-1~noble) noble; urgency=medium
 
   * gz-msgs11 11.0.0~pre1-1 release
 
  -- Ian Chen <ichen@openrobotics.org>  Tue, 27 Aug 2024 18:41:34 +0000
-
-gz-msgs11 (10.999.999-1~noble) noble; urgency=medium
-
-  * First release for noble
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 09 Feb 2024 19:28:17 +0100
