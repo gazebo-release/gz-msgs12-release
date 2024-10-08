@@ -1,4 +1,4 @@
-Source: gz-msgs11
+Source: gz-msgs12
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
@@ -19,16 +19,16 @@ Build-Depends: cmake,
                python3-dev,
                python3-protobuf
 Vcs-Browser: https://github.com/gazebosim/gz-msgs
-Vcs-Git: https://github.com/gazebo-release/gz-msgs11-release
+Vcs-Git: https://github.com/gazebo-release/gz-msgs12-release
 Standards-Version: 4.5.1
 Homepage: http://gazebosim.org/
 
-Package: libgz-msgs11
+Package: libgz-msgs12
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: gz-msgs11-cli
+Recommends: gz-msgs12-cli
 Multi-Arch: same
 Description: Set of message definitions used by robotics apps - Shared library
  Gazebo msgs is a component in the Gazebo framework, a set of
@@ -37,7 +37,7 @@ Description: Set of message definitions used by robotics apps - Shared library
  .
  This package contains the main message library.
 
-Package: libgz-msgs11-dev
+Package: libgz-msgs12-dev
 Architecture: any
 Section: libdevel
 Depends: libprotobuf-dev (>= 2.3.0),
@@ -49,7 +49,7 @@ Depends: libprotobuf-dev (>= 2.3.0),
          libgz-utils3-cli-dev,
          python3,
          ${shlibs:Depends},
-         libgz-msgs11 (= ${binary:Version}),
+         libgz-msgs12 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: no
 Description: Set of message definitions used by robotics apps - Dev files
@@ -59,9 +59,9 @@ Description: Set of message definitions used by robotics apps - Dev files
  .
  This package contains the headers and other tools for development.
 
-Package: gz-msgs11-cli
+Package: gz-msgs12-cli
 Architecture: any
-Depends: libgz-msgs11 (= ${binary:Version}),
+Depends: libgz-msgs12 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
 Multi-Arch: no
@@ -72,13 +72,13 @@ Description: Set of message definitions used by robotics apps - CLI
  .
  This package contains the cli utilities.
 
-Package: python3-gz-msgs11
+Package: python3-gz-msgs12
 Architecture: any
-Depends: libgz-msgs11 (= ${binary:Version}),
+Depends: libgz-msgs12 (= ${binary:Version}),
          python3-protobuf,
          ${misc:Depends},
          ${python3:Depends}
-Enhances: libgz-msgs11
+Enhances: libgz-msgs12
 Description: Set of message definitions used by robotics apps - Dev files
  Gazebo msgs is a component in the Gazebo framework, a set of
  librariesdesigned to rapidly develop robot applications. The library
