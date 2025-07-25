@@ -87,3 +87,27 @@ Description: Set of message definitions used by robotics apps - Dev files
  This package contains the headers and other tools for development.
  .
  The package contains the Python3 bindings.
+
+Package: gz-jetty-msgs
+Depends: libgz-msgs12-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: gz-jetty-msgs-cli
+Depends: gz-msgs12-cli (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: gz-jetty-msgs-python
+Depends: python3-gz-msgs12 (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
