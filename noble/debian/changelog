@@ -4,12 +4,6 @@ gz-msgs12 (12.0.0-1~noble) noble; urgency=medium
 
  -- Carlos Aguero <caguero@osrfoundation.org>  Mon, 25 Aug 2025 17:23:05 +0200
 
-gz-msgs12 (12.0.0-1~noble) noble; urgency=medium
-
-  * gz-msgs12 12.0.0-1 release
-
- -- Carlos Aguero <caguero@osrfoundation.org>  Mon, 25 Aug 2025 17:22:24 +0200
-
 gz-msgs12 (11.999.999-1~noble) noble; urgency=medium
 
   * Stub to be removed after first entry
