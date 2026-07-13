@@ -1,3 +1,9 @@
+gz-msgs12 (12.0.2-1~noble) noble; urgency=medium
+
+  * gz-msgs12 12.0.2-1 release
+
+ -- Carlos Agüero <caguero@honurobotics.com>  Mon, 13 Jul 2026 21:18:03 +0200
+
 gz-msgs12 (12.0.1-1~noble) noble; urgency=medium
 
   * gz-msgs12 12.0.1-1 release
